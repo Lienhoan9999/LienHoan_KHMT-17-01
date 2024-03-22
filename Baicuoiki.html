@@ -1,0 +1,159 @@
+<html> 
+    <head> 
+        <title> BÀI KIỂM TRA CUỐI KÌ 2</title>
+        
+        <style> 
+       .wrapper {
+    display: flex; /* Xếp hàng ngang các phần tử bên trong */
+    justify-content: space-around; /* Canh giữa các phần tử */
+    flex-wrap:wrap; /* Cho phép các phần tử tràn dòng khi không đủ chỗ */
+}
+.wrapper {
+    background-color: #f0f0f0; /* Sử dụng mã màu hex */
+}
+
+/* Nếu bạn muốn sử dụng tên màu */
+.wrapper {
+    background-color: lightgray;
+}
+
+/* Để sử dụng gradient màu */
+.wrapper {
+    background: linear-gradient(to right, #ffcccc, #ff99cc);  /* Gradient từ màu hồng đến màu hồng nhạt */
+}
+
+.content {
+    width: 15%; /* Đặt chiều rộng của mỗi phần tử */
+    margin: 7
+    px; /* Khoảng cách giữa các phần tử */
+}
+@media only screen and (max-width: 768px) {
+    .content {
+        width: 50%; /* Khi đến kích thước nhỏ, phần tử chiếm toàn bộ chiều rộng */
+    }
+}
+.submit:hover {
+    background-color: #0d1b99; /* Màu nền khi rê chuột qua */
+}
+
+.submi:blink {
+    animation: blinker 1s linear infinite; /* Tạo hiệu ứng nhấp nháy */
+}
+
+@keyframes blinker {
+    50% {
+        background-color: #b91212; /* Màu nền trong quá trình nhấp nháy */
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+  }
+  .column {
+    flex: 20;
+    padding: 100px;
+  }
+  body{
+    background-color:whitesmoke;
+  }
+  .column img {
+    width: 50%;
+    height:auto;
+  }
+        </style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bảng với hình ảnh và nội dung</title>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Two Column Layout</title>
+            <link rel="stylesheet" href="styles.css">
+        </head>
+    </head>
+    <body> 
+            <center><h1 style="font-style: italic;">TRUNG TÂM HỌC CODE LUXULY</h1></center>
+            <img src="https://vietnamlab.vn/img/home/logo.png" alt="120">
+            
+            <div class="wrapper">
+                <section class="content">
+                    <h2>Trang chủ</h2>
+                    
+                </section>
+                <section class="content">  
+                    <div class="content">
+                      <h3> <a href="link-to-post-1.html">Thông báo tuyển sinh </a></h3>  
+                       
+                    </div>
+                </section>
+                <section class="content">
+                    <div class="content">
+                        <h3> <a href="link-to-post-2.html">Quy chế tuyển sinh </a></h3>  
+                         
+                      </div>
+                </section>
+                <section class="content">
+                    <div class="content">
+                        <h3> <a href="link-to-post-3.html">Phiếu đăng kí học  </a></h3>  
+                         
+                      </div> 
+                </section>
+                <section class="content">
+                    <h3> <a href="link-to-post-4.html">Học phí  </a></h3>  
+                         
+                </section>
+    
+                <section class="content">
+                    <h3> <a href="link-to-post-5.html">Câu hỏi thường gặp  </a></h3> 
+                </section>
+                
+            </div>
+                <div class="container">
+                    <div class="column">
+                      <img src="https://vinbigdata.com/wp-content/uploads/2023/11/12063795_4884785-2048x1365.jpg" alt="hinh ảnh 1">
+                      <p><h3> Lập trình giúp bạn hiểu hơn về công nghệ. </h3>  </p>
+                      <input type="submit" value="ĐỌC THÊM "/>
+                      
+                    </div>
+                    <div class="column">
+                      <img src="https://bizflyportal.mediacdn.vn/bizflyportal/images/315876129854120.jpg" alt="hinh ảnh 2">
+                      <p><h3>Lập trình giúp bạn nâng cao kỹ năng giải quyết vấn đề. </h3></p>
+                      <input type="submit" value="ĐỌC THÊM "/>
+                    </div>
+                  </div>
+                  
+                  <div class="container">
+                    <div class="column">
+                      <img src="https://bizflyportal.mediacdn.vn/bizflyportal/images/315876129854120.jpg" alt="Hình ảnh 3">
+                      <p><h3> Lập trình có thể được áp dụng để trực quan hóa dữ liệu</h3></p>
+                      <input type="submit" value="ĐỌC THÊM "/>
+                    </div>
+                    <div class="column">
+                      <img src="https://vinbigdata.com/wp-content/uploads/2023/11/12063795_4884785-2048x1365.jpg" alt="Hình ảnh 4">
+                      <p><h3> Lập trình có thể hoàn thiện sự sáng tạo của mỗi cá nhân.</h3></p>
+                      <input type="submit" value="ĐỌC THÊM "/>
+                    </div>
+                  </div>
+                  
+                  <div class="container">
+                    <div class="column">
+                      <img src="https://vinbigdata.com/wp-content/uploads/2023/11/12063795_4884785-2048x1365.jpg"alt="Hình ảnh 5">
+                      <p> <h3>Ngôn ngữ lập trình được sử dụng thống nhất trên toàn thế giới</h3></p>
+                      <input type="submit" value="ĐỌC THÊM "/>
+                    </div>
+                    <div class="column">
+                      <img src="https://bizflyportal.mediacdn.vn/bizflyportal/images/315876129854120.jpg" alt="Hình ảnh 6">
+                      <p><h3> Tính linh hoạt của lập trình.</h3></p>
+                      <input type="submit" value="ĐỌC THÊM "/>
+                    </div>
+                    
+      
+            </div>
+
+
+           
+                    
+        
+    </body>
+</html>
